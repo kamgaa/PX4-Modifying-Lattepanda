@@ -1,0 +1,15 @@
+px4_mocap_bridge:
+  ros__parameters:
+    rigid_body_name: "drone"
+    input_topic: "/poses"
+    output_topic: "/fmu/in/vehicle_visual_odometry"
+    max_publish_rate_hz: 50.0
+    max_input_age_ms: 100.0
+    position_stddev_xy: 0.02
+    position_stddev_z: 0.02
+    quality: 100
+    mocap_to_px4_matrix:
+      [1.0,  0.0,  0.0,
+       0.0, -1.0,  0.0,
+       0.0,  0.0, -1.0]
+    position_offset_px4: [0.0, 0.0, 0.0]

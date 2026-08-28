@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>px4_mocap_bridge</name>
+  <version>0.1.0</version>
+  <description>Bridge named ROS 2 motion-capture poses to PX4 external-vision odometry.</description>
+  <maintainer email="seosuk@users.noreply.github.com">SEOSUK</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>px4_msgs</depend>
+  <depend>motion_capture_tracking_interfaces</depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>motion_capture_tracking</exec_depend>
+  <exec_depend>px4_ros_com</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

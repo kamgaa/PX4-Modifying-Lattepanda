@@ -1,0 +1,13 @@
+/motion_capture_tracking:
+  ros__parameters:
+    type: "optitrack"
+    hostname: "192.168.0.100"
+
+    topics:
+      frame_id: "mocap"
+      header_time: "ros"
+      poses:
+        version: 2
+        qos:
+          mode: "sensor"
+          deadline: 50.0
