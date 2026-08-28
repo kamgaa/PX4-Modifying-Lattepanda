@@ -27,7 +27,7 @@ OptiTrack/Motive
 반드시 `--recurse-submodules`로 복제해야 합니다.
 
 ```bash
-cd ~/ros2_ws
+cd ~/ros2_ws/src
 git clone --recurse-submodules --branch ros2 \
   https://github.com/IMRCLab/motion_capture_tracking.git
 source /opt/ros/humble/setup.bash
