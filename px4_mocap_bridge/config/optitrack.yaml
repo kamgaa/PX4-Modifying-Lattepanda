@@ -1,7 +1,7 @@
 /motion_capture_tracking:
   ros__parameters:
     type: "optitrack"
-    hostname: "192.168.0.100"
+    hostname: "192.168.10.115"
 
     topics:
       frame_id: "mocap"

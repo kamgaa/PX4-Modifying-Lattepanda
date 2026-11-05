@@ -36,7 +36,7 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
             'hostname',
-            default_value='192.168.0.100',
+            default_value='192.168.10.115',
             description='Hostname or IP address of the Motive computer.',
         ),
         DeclareLaunchArgument(

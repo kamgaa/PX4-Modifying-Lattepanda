@@ -1,0 +1,22 @@
+palletrone_hover_land:
+  ros__parameters:
+    use_sim_time: false
+    require_heading_good_for_control: false
+    hover_height_m: 0.5
+    hover_duration_s: 10.0
+    climb_rate_mps: 0.2
+    publish_rate_hz: 20.0
+    position_tolerance_m: 0.1
+    arrival_settle_time_s: 1.0
+    prestream_duration_s: 1.5
+    position_timeout_s: 10.0
+    status_timeout_s: 10.0
+    climb_timeout_s: 30.0
+    land_retry_interval_s: 2.0
+    land_max_attempts: 3
+    max_step_dt_s: 0.1
+    control_timeout_s: 0.3
+    target_system_id: 1
+    target_component_id: 1
+    source_system_id: 245
+    source_component_id: 191
