@@ -1,0 +1,23 @@
+# Explicit live profile. All unspecified parameters were copied from j1_driver.yaml.
+dynamixel_fix_with_j1:
+  ros__parameters:
+    dry_run: false
+    use_sim_time: false
+    device: /dev/ttyU2D2
+    baud_rate: 1000000
+    j1_id: 5
+    zero_tick: 802
+    direction: -1
+    ticks_per_rev: 4096
+    physical_min_deg: -5.0
+    physical_max_deg: 35.0
+    raw_tick_min: 0
+    raw_tick_max: 4095
+    calibration_confirmed: true
+    control_table_confirmed: true
+    expected_j1_model_number: 1120
+    max_joint_rate_deg_s: 5.0
+    joint_period_s: 0.05
+    joint_rx_timeout_ms: 5.0
+    legacy_rx_timeout_ms: 4.0
+    command_timeout_s: 0.5

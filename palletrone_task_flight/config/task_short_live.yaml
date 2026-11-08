@@ -1,0 +1,55 @@
+# Explicit live profile. All unspecified parameters were copied from task_flight.yaml.
+task_flight:
+  ros__parameters:
+    use_sim_time: false
+    dry_run: false
+    hover_height_m: 0.5
+    initial_hover_duration_s: 10.0
+    climb_rate_mps: 0.2
+    rod_length_m: 0.6
+    px4_reference_to_bottom_frd_m:
+    - 0.0
+    - 0.0
+    - 0.0
+    j1_mount_from_bottom_frd_m:
+    - -0.11
+    - 0.0
+    - 0.0
+    standoff_distance_m: 0.3
+    pose1_angle_deg: 0.0
+    pose2_angle_deg: 30.0
+    azimuth_offsets_deg:
+    - 0.0
+    reverse_second_pass: true
+    approach_duration_s: 10.0
+    retract_duration_s: 10.0
+    orbit_duration_s: 10.0
+    posture_change_duration_s: 10.0
+    contact_hold_duration_s: 2.0
+    segment_settle_time_s: 1.0
+    final_hover_duration_s: 3.0
+    publish_rate_hz: 20.0
+    position_tolerance_m: 0.05
+    yaw_tolerance_deg: 3.0
+    joint_tolerance_deg: 2.0
+    climb_timeout_s: 30.0
+    segment_arrival_timeout_s: 30.0
+    mission_timeout_s: 600.0
+    position_timeout_s: 0.5
+    status_timeout_s: 10.0
+    joint_feedback_timeout_s: 0.5
+    joint_tracking_timeout_s: 2.0
+    control_timeout_s: 2.0
+    max_step_dt_s: 0.1
+    max_reference_speed_mps: 0.2
+    max_reference_yaw_rate_deg_s: 10.0
+    max_joint_rate_deg_s: 5.0
+    require_heading_good_for_control: false
+    prestream_duration_s: 1.5
+    discovery_wait_s: 2.0
+    land_retry_interval_s: 2.0
+    land_max_attempts: 3
+    target_system_id: 1
+    target_component_id: 1
+    source_system_id: 245
+    source_component_id: 191
